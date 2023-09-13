@@ -4,9 +4,21 @@
 
 <head>
 	<link rel="stylesheet" href="styles.css">
+	<title>Feedback Form</title>
 </head>
 
 <body>
+	<h1>Feedback Form</h1>
+	<form method="POST">
+		<label for="name">Name</label>
+		<input id="name" type="text" minlength="3" maxlength="50" required>
+		<label for="portfolio">Portfolio</label>
+		<input id="portfolio" type="url" required>
+		<label for="favColor">Favorite Color</label>
+		<input id="favColor" type="color">
+		<label for="likeness">Likeness</label>
+		<input id="likeness" type="range" minlength="1" maxlength="100" required>
+	</form>
 	<!-- the entire body must be written by student -->
     <script type="text/javascript" src="./script.js">
 </script>
